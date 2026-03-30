@@ -12,9 +12,6 @@ public class Humain {
         this.age = age;
     }
 
-    public Humain() {
-        super();
-    }
 
     public void details() {
         System.out.println(nom + " " + prenom + ", " + age + " ans");
