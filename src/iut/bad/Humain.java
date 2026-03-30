@@ -33,5 +33,12 @@ public class Humain implements Consommation {
     
     public void ami(Humain h) {
         System.out.println(nom + " est ami(e) avec " + h.nom);
+        ami(h, 100);
     }
+
+    public void ami(Humain h, int dureeJours) {
+        System.out.println(nom + " est ami(e) avec " + h.nom 
+                         + " depuis " + dureeJours + " jours.");
+    }
+
 }

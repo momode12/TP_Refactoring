@@ -8,7 +8,7 @@ public class Femme extends Humain {
     
     public static void main(String[] args) {
         Homme h = new Homme("HERITIANA", "Julien", 23);
-        Femme f = new Femme("CARL", "Mômô", 20);
+        Femme f = new Femme("FANOMEZANA", "Julia", 20);
 
         h.ami(f); 
         f.ami(h); 
