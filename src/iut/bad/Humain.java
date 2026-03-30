@@ -2,8 +2,21 @@ package iut.bad;
 
 public class Humain {
 
-	public Humain() {
-		super();
-	}
+    protected String nom;
+    protected String prenom;
+    protected int age;
 
+    public Humain(String nom, String prenom, int age) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.age = age;
+    }
+
+    public Humain() {
+        super();
+    }
+
+    public void details() {
+        System.out.println(nom + " " + prenom + ", " + age + " ans");
+    }
 }
